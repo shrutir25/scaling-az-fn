@@ -17,6 +17,13 @@
       "tableName": "HttpLoadTestInstanceIds",
       "connection": "AzureWebJobsStorage",
       "direction": "out"
+    },
+    {
+      "type": "table",
+      "name": "processIds",
+      "tableName": "HttpLoadTestProcessIds",
+      "connection": "AzureWebJobsStorage",
+      "direction": "out"
     }
   ],
   "disabled": false
